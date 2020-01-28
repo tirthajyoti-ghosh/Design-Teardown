@@ -1,0 +1,145 @@
+/* Reset CSS */
+
+blockquote,
+body,
+dd,
+dl,
+dt,
+fieldset,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+html,
+iframe,
+legend,
+li,
+ol,
+p,
+pre,
+textarea,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+  text-align: left;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  width: 100px;
+  height: 100px;  
+  flex: 1;
+  background-color: grey;
+  border: 1px solid white;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links a {
+  color: black;
+}
+
+/* Article Section */
+
+.featured-articles {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.featured-articles h1 {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+
+article {
+  width: 50%;
+  height: 800px;
+  background-color: grey;
+  border: 1px solid white;
+  padding: 25% 15%;
+  text-align: center;
+}
+
+article .seriously-red {
+  position: absolute;
+  top: 25px;
+  right: 50px;
+}
+
+article h2 {
+  font-size: 30px;
+  color: white;
+}
