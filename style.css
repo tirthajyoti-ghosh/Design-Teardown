@@ -96,16 +96,20 @@ nav {
 .nav-links {
   display: flex;
   width: 100px;
-  height: 100px;  
+  height: 259px;  
   flex: 1;
   background-color: grey;
-  border: 1px solid white;
   align-items: center;
   justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  
 }
 
 .nav-links a {
   color: black;
+  padding-top: 50px;
+  color: #fff;
 }
 
 /* Article Section */
@@ -143,3 +147,66 @@ article h2 {
   font-size: 30px;
   color: white;
 }
+
+button {
+  font-size: 3rem;
+  border-radius: 1rem;
+}
+
+.fas .fa-search {
+  font: 1px;
+}
+
+.featured-articles {
+  font-size: 2rem;
+  color: rgb(17, 16, 16);
+  font-weight: bold;
+}
+
+.article-heading {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.main-grid {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+
+  
+}
+
+.grid-paragraph {
+  font-size: 2rem;
+}
+
+.grid-title {
+  font-size: 3rem;
+  text-decoration: underline;
+  padding-top: 10px;
+}
+
+.grid-title:hover {
+  color: rgb(204, 10, 10);
+}
+
+.container  {
+  display: flex;
+  justify-content: flex-end;
+  height: 50%;
+  padding-top: 50px;
+  
+}
+.container h2 {
+  background-color: rgb(168, 165, 165);
+  width: 95%;
+  height: 646px;
+  border-radius: 1rem;
+}
+
+h2 {
+  padding-top: 30%;
+}
+
+
