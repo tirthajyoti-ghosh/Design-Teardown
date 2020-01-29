@@ -96,14 +96,13 @@ nav {
 .nav-links {
   display: flex;
   width: 100px;
-  height: 259px;  
+  height: 200px;
   flex: 1;
   background-color: grey;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  font-weight: bold;
-  
+  font-size: 1.5rem;
+  font-weight: bold;  
 }
 
 .nav-links a {
@@ -133,7 +132,7 @@ article {
   height: 800px;
   background-color: grey;
   border: 1px solid white;
-  padding: 25% 15%;
+  padding: 15%;
   text-align: center;
 }
 
@@ -149,8 +148,9 @@ article h2 {
 }
 
 button {
-  font-size: 3rem;
+  font-size: 1.8rem;
   border-radius: 1rem;
+  margin-top: 50px;
 }
 
 .fas .fa-search {
@@ -169,20 +169,86 @@ button {
   font-size: 2rem;
 }
 
+/* Membership */
+
+.membership {
+  height: 497px;
+  background-color: grey;
+  color: white;
+  padding: 50px 0;
+  font-size: 19px;
+}
+
+.membership .content {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content .img {
+  width: 215px;
+  height: 280px;
+  background-color: black;
+  position: absolute;
+  top: -100px;
+  right: 150px;
+  transform: rotate(-21.5deg);
+}
+
+.content i {
+  float: right;
+}
+
+.content .text {
+  width: 55%;
+}
+
+.text p {
+  margin-bottom: 30px;
+}
+
+.text ul {
+  list-style: disc;
+  padding-left: 40px;
+  margin-bottom: 50px;
+}
+
+.text li {
+  margin-bottom: 10px;
+}
+
+.text button {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+/* Latest Article Grid */
+
 .main-grid {
   display: flex;
-  justify-content: space-evenly;
-  font-size: 2rem;
+  background-color: grey;
+  margin-top: 20px;
+}
 
-  
+.article-grid {
+  border: 1px solid white;
+  padding: 20px;
+}
+
+.article-grid .author {
+  margin: 10px 0;
 }
 
 .grid-paragraph {
-  font-size: 2rem;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 30px;
 }
 
 .grid-title {
-  font-size: 3rem;
+  font-size: 2rem;
   text-decoration: underline;
   padding-top: 10px;
 }
@@ -203,10 +269,27 @@ button {
   width: 95%;
   height: 646px;
   border-radius: 1rem;
-}
-
-h2 {
   padding-top: 30%;
 }
 
+/* TV Membership */
 
+.tv-membership {
+  padding: 40px;
+}
+
+.tv-membership .tv-content {
+  text-align: center;
+  background-color: grey;
+  border-radius: 10px;
+  color: white;
+  padding: 25px;
+}
+
+.tv-content .img {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 auto;
+}
