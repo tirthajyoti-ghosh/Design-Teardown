@@ -127,7 +127,7 @@ nav {
   background-color: white;
 }
 
-article {
+.featured-articles article {
   width: 50%;
   height: 800px;
   background-color: grey;
@@ -333,6 +333,10 @@ button {
   text-align: center;
 }
 
+.load-more a {
+  text-decoration: underline;
+}
+
 /* Book */
 
 .book {
@@ -369,8 +373,134 @@ button {
 }
 
 .book .img {
-  width: 920px;
+  width: 800px;
   height: 517px;
   background-color: black;
   margin: 0 auto;
+}
+
+/* Community */
+
+.community-container .person-of-the-week {
+  width: 92%;
+  margin: 70px auto;
+}
+
+.community-container .img {
+  background-color: black;
+  transform: rotate(-9deg);
+  float: left;
+  border-radius: 10px;
+  border: 5px solid red;
+}
+
+.person-of-the-week .img {
+  width: 250px;
+  height: 250px;
+}
+
+.person-of-the-week h3,
+.person-of-the-week p {
+  margin-left: 330px;
+  margin-right: 50px;
+}
+
+.person-of-the-week h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.person-of-the-week p {
+  font-size: 19px;
+  line-height: 33px;
+}
+
+/* Community Articles */
+
+.community-articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 80px 40px;
+}
+.community-articles .img {
+  width: 72px;
+  height: 72px;
+}
+
+.community-author {
+  width: 40%;
+  margin: 80px 50px;
+}
+
+.community-author .author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.community-author article {
+  margin-left: 100px;
+}
+
+.community-author .title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.community-author .article-content {
+  font-size: 18px;
+}
+
+/* Featured Articles */
+
+.featured-book {
+  height: 450px;
+  background-color: grey;
+  color: white;
+  padding: 50px 0;
+  font-size: 19px;
+}
+
+.featured-book .content {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.featured-book .img {
+  width: 256px;
+  height: 372px;
+  background-color: black;
+  position: absolute;
+  top: -100px;
+  right: 20px;
+  transform: rotate(-8.5deg);
+}
+
+.featured-book .text {
+  width: 65%;
+}
+
+.text .feature {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.text h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.text .description {
+  line-height: 40px;
+}
+
+.text button {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
 }
