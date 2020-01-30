@@ -102,11 +102,10 @@ nav {
   align-items: center;
   justify-content: center;
   font-size: 1.5rem;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 .nav-links a {
-  color: black;
   padding-top: 50px;
   color: #fff;
 }
@@ -117,6 +116,9 @@ nav {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  font-size: 2rem;
+  color: rgb(17, 16, 16);
+  font-weight: bold;
 }
 
 .featured-articles h1 {
@@ -157,14 +159,7 @@ button {
   font: 1px;
 }
 
-.featured-articles {
-  font-size: 2rem;
-  color: rgb(17, 16, 16);
-  font-weight: bold;
-}
-
 .article-heading {
-  font-size: 2.5rem;
   font-weight: bolder;
   font-size: 2rem;
 }
@@ -257,11 +252,11 @@ button {
   color: rgb(204, 10, 10);
 }
 
-.container  {
+.container {
   display: flex;
   justify-content: flex-end;
   height: 50%;
-  padding-top: 50px;  
+  padding-top: 50px;
 }
 
 .container .content {
@@ -381,7 +376,7 @@ button {
 
 /* Community */
 
-.community-container {  
+.community-container {
   background-color: grey;
   border: 1px solid white;
 }
@@ -429,6 +424,7 @@ button {
   margin: 80px 40px;
   border: 1px solid white;
 }
+
 .community-articles .img {
   width: 72px;
   height: 72px;
@@ -504,52 +500,55 @@ button {
   line-height: 40px;
 }
 
-.text button {
-  font-size: 25px;
-  font-weight: bold;
-  border-radius: 5px;
-  padding: 15px;
-  margin-top: 20px;
-}
+/* Newsletter */
 
-.article-grid2 {
-  border: 3px solid white;
-  padding: 50px;
-  background-color: rgb(160, 157, 152);
-  width: 50%;
+.newsletter {
+  display: flex;
+  margin-bottom: 50px;
 }
 
 .main-grid2 {
-  padding: 30px 30px;
   display: flex;
-  margin: 30px;
-  height: 534px; 
+  margin-top: 30px;
 }
 
-ul {
-  font-size: 30px;
+.article-grid2 {
+  border: 1px solid white;
+  padding: 50px;
+  background-color: grey;
+  width: 50%;
+}
+
+.article-grid2 h2 {
+  text-decoration: none;
+}
+
+.article-grid2 ul {
+  font-size: 20px;
   list-style: disc;
+  padding-top: 10px;
   padding-left: 60px;
 }
 
 .article-grid3 {
-  margin-left: 80px;
+  margin-left: 30px;
+  margin-top: 30px;
   background-color: grey;
   width: 30%;
-  height:534px ;
+  height: 1000px;
+  padding: 20px;
 }
 
-li  {
+.article-grid3 li {
   padding: 4px;
 }
 
 .end-grid {
   background-color: grey;
-  width: 48%;
-  height: 1000px;
-  margin-left: 50%;
+  width: 63%;
+  margin-left: 40px;
+  margin-top: 30px;
   border-radius: 20px;
-  transform: translateY(-536px);
 }
 
 .end-title {
@@ -578,17 +577,14 @@ li  {
 }
 
 .grid-button {
-  background-color: blanchedalmond;
-  width: 25%;
-  height: 10%;
   margin-left: -2.5px;
   border-right: 1px solid grey;
   font-size: 40px;
+  border-radius: 0%;
 }
 
 .grid-text {
-  background-color: blanchedalmond;
-  width: 25%;
+  width: 45%;
   margin-left: 185px;
   font-size: 40px;
 }
@@ -600,7 +596,7 @@ li  {
 .grid-par {
   font-size: 1.5rem;
   text-align: center;
-  padding-top: 7% ;
+  padding-top: 7%;
 }
 
 .footer-link {
@@ -611,17 +607,17 @@ li  {
 
 footer {
   background-color: grey;
-  height: 955px;
   text-align: center;
   position: relative;
+  padding: 50px;
 }
 
 .footer-title {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
-footer li {
-  font-size: 2rem;
+.footer-link li {
+  font-size: 1.8rem;
   font-weight: bold;
   padding: 10px;
   list-style: none;
@@ -629,31 +625,21 @@ footer li {
 
 .grid-img1 {
   background-color: black;
-  width: 300px;
-  height: 300px;
-  margin-left: 197px;
+  width: 190px;
+  height: 225px;
+  margin-left: 60px;
   margin-top: 67px;
   position: absolute;
+  bottom: 40px;
 }
 
 .grid-img2 {
   background-color: black;
-  width: 300px;
-  height: 300px;
-  margin-left: 256px;
+  width: 230px;
+  height: 190px;
+  margin-left: 75px;
   margin-top: 67px;
-  position: relative;
-  top: -199px;
+  position: absolute;
+  bottom: 40px;
   left: 942px;
-  transform: rotate(-20deg);
 }
-
-
-
-
-
-
-
-
-
-
