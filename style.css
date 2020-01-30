@@ -511,3 +511,149 @@ button {
   padding: 15px;
   margin-top: 20px;
 }
+
+.article-grid2 {
+  border: 3px solid white;
+  padding: 50px;
+  background-color: rgb(160, 157, 152);
+  width: 50%;
+}
+
+.main-grid2 {
+  padding: 30px 30px;
+  display: flex;
+  margin: 30px;
+  height: 534px; 
+}
+
+ul {
+  font-size: 30px;
+  list-style: disc;
+  padding-left: 60px;
+}
+
+.article-grid3 {
+  margin-left: 80px;
+  background-color: grey;
+  width: 30%;
+  height:534px ;
+}
+
+li  {
+  padding: 4px;
+}
+
+.end-grid {
+  background-color: grey;
+  width: 48%;
+  height: 1000px;
+  margin-left: 50%;
+  border-radius: 20px;
+  transform: translateY(-536px);
+}
+
+.end-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 5rem;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.end-para {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 6rem;
+  color: #fff;
+}
+
+.grid-img {
+  background-color: black;
+  width: 385px;
+  height: 391px;
+  border-radius: 192px;
+  margin-left: 256px;
+  margin-top: 67px;
+}
+
+.grid-button {
+  background-color: blanchedalmond;
+  width: 25%;
+  height: 10%;
+  margin-left: -2.5px;
+  border-right: 1px solid grey;
+  font-size: 40px;
+}
+
+.grid-text {
+  background-color: blanchedalmond;
+  width: 25%;
+  margin-left: 185px;
+  font-size: 40px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.grid-par {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 7% ;
+}
+
+.footer-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer {
+  background-color: grey;
+  height: 955px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-title {
+  font-size: 2rem;
+}
+
+footer li {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 10px;
+  list-style: none;
+}
+
+.grid-img1 {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-left: 197px;
+  margin-top: 67px;
+  position: absolute;
+}
+
+.grid-img2 {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin-left: 256px;
+  margin-top: 67px;
+  position: relative;
+  top: -199px;
+  left: 942px;
+  transform: rotate(-20deg);
+}
+
+
+
+
+
+
+
+
+
+
