@@ -381,9 +381,14 @@ button {
 
 /* Community */
 
+.community-container {  
+  background-color: grey;
+  border: 1px solid white;
+}
+
 .community-container .person-of-the-week {
-  width: 92%;
-  margin: 70px auto;
+  padding: 70px 5%;
+  border: 1px solid white;
 }
 
 .community-container .img {
@@ -422,6 +427,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin: 80px 40px;
+  border: 1px solid white;
 }
 .community-articles .img {
   width: 72px;
@@ -431,6 +437,7 @@ button {
 .community-author {
   width: 40%;
   margin: 80px 50px;
+  border: 1px solid white;
 }
 
 .community-author .author {
