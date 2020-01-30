@@ -1,6 +1,6 @@
 # Design-Teardown
 This project is a visual hierarchy of the Smashing Magazine homepage
-
+![demo image](demo-img.png)
 > Project built using basic HTML and CSS.
 
 # What it does
